@@ -8,7 +8,7 @@ speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 def batch_badge_creator(array)
   badge_messages = []
-  array.each {|name| badge_messages.push(badge_maker(name)}
+  array.each {|name| badge_messages.push(badge_maker(name))}
   return badge_messages
 end
 
